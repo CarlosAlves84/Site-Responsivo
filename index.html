@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Consultoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com imagem e texto de introdução -->
+    <header class="header">
+        <div class="header-content">
+            <div class="overlay">
+                <h1>Alfa Consultoria</h1>
+                <p>Suporte especializado para o sucesso do seu negócio</p>
+                <a href="#contato" class="btn">Fale Conosco</a>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <img src="/logos/palestra.jpeg" alt="Palestrante Sergio Ricardo Alves Faria" class="popup-image">
+            <h2>Palestra sobre Gestão e Consultoria</h2>
+            <p><strong>Data:</strong> 30 de novembro de 2024</p>
+            <p><strong>Palestrante:</strong> Sergio Ricardo Alves Faria</p>
+            <p><strong>Profissão:</strong> Administrador e Consultor</p>
+            <p>Participe desta palestra enriquecedora sobre as melhores práticas em gestão e consultoria. Sergio Ricardo Alves Faria compartilhará seus conhecimentos e experiências no campo da administração e consultoria, ajudando você a alcançar o sucesso profissional.</p>
+            <button onclick="closePopup()">Fechar</button>
+        </div>
+    </div>
+    
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="sobre">
+        <div class="sobre-texto">
+            <h2>Sobre Nós</h2>
+            <p>A <strong>Alfa Consultoria</strong> há <strong>18 anos</strong> tem sido uma parceira estratégica para seus clientes, oferecendo um suporte especializado que vai muito além da simples execução de tarefas burocráticas. 
+                Nossa missão é simplificar a vida de nossos clientes, permitindo que eles se concentrem no que realmente importa: o crescimento de seus negócios, a realização de seus projetos pessoais e o bem-estar de suas famílias.
+                Com uma equipe altamente qualificada e atenta às constantes mudanças legislativas, nos antecipamos aos desafios, garantindo que nossos clientes estejam sempre atualizados e preparados para lidar com os impactos dessas alterações.
+                Sabemos que as exigências legais podem ser complexas e, muitas vezes, confusas. É por isso que estamos aqui para garantir que essas obrigações sejam cumpridas de forma eficiente, evitando riscos e complicações.
+                Além disso, oferecemos serviços completos de <strong>Assessoria</strong> e <strong>Consultoria</strong>, moldados às necessidades específicas de cada cliente.
+                Nosso foco é criar soluções personalizadas, ajudando nossos parceiros a otimizar processos, reduzir custos e maximizar oportunidades.
+                Seja no planejamento estratégico, na gestão financeira ou no cumprimento de obrigações fiscais, você pode confiar na Alfa Consultoria para entregar resultados concretos e sustentáveis.
+                Dedique seu tempo àquilo que realmente importa, e deixe que nós cuidemos das questões que podem tirar seu foco.
+                A tranquilidade de saber que seus problemas estão sendo resolvidos com expertise e responsabilidade é o que oferecemos aos nossos clientes. Juntos, transformamos desafios em oportunidades.</p>
+        </div>
+        <div class="sobre-imagem">
+            <img src="/logos/escritorio.jpeg" alt="Reunião de negócios">
+        </div>
+    </section>
+
+    <!-- Seção de Localização com mapa -->
+    <section id="localizacao" class="localizacao">
+        <div class="localizacao-texto">
+            <h2>Localização</h2>
+            <p>A <strong> Consultoria</strong> está localizada em um ponto de fácil acesso. Nosso escritório fica na <strong>Osório Machado da Fonseca, 153, Monte Verde</strong>, no município de <strong>Santa Rita do Sapucaí</strong>.
+                Uma região conhecida por seu dinamismo econômico e ambiente empresarial em constante crescimento.
+                Com a nossa localização já detalhada ao lado, facilitando a chegada de nossos clientes, seja de carro ou por meio de transporte público.
+                Nas redondezas, você encontrará uma variedade de opções de estacionamento e uma infraestrutura agradável que tornam sua visita mais confortável e prática.
+                Nosso escritório foi pensado para oferecer um ambiente acolhedor e profissional, com um espaço projetado para garantir conforto e confidencialidade no atendimento de nossos clientes.
+                Aqui, você terá toda a atenção necessária para discutir suas necessidades, esclarecer dúvidas e desenvolver estratégias personalizadas para alcançar seus objetivos pessoais e empresariais. 
+                Estamos prontos para recebê-lo e oferecer um atendimento de excelência.
+                Visite-nos e descubra como a <strong>Alfa Consultoria</strong>, pode ajudar a transformar os desafios burocráticos e legais em oportunidades de sucesso.</p>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.4760776576613!2d-45.69705152385565!3d-22.259948879715562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cba215245ffb1b%3A0x35259822885c181c!2sR.%20Os%C3%B3rio%20Machado%20da%20Fonseca%2C%20153%20-%20Monte%20Verde%2C%20Santa%20Rita%20do%20Sapuca%C3%AD%20-%20MG%2C%2037540-000!5e0!3m2!1spt-BR!2sbr!4v1727021587474!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-lista">
+            <div class="servico-item">
+                <img src="/logos/renda.jpg" alt="Imposto de Renda">
+                <h3>Declarações de Impostos de Renda</h3>
+                <p>Simplificada, Completa e Final de Espólio.</p>
+            </div>
+            <div class="servico-item">
+                <img src="/logos/darf.jpg" alt="Cálculo de DARF">
+                <h3>Cálculo de DARF sobre operações com bolsa de valores</h3>
+                <p>Cálculo de preço médio de ações adquiridas em Bolsa de Valores.</p>
+                <p>Operações Daytrade e Swingtrade.</p>
+            </div>
+            <div class="servico-item">
+                <img src="/logos/imovel.jpg" alt="Regularização de Imóveis">
+                <h3>Regularização de Imóveis</h3>
+                <p>Lançamento de documentação e procedimentos para regularização.</p>
+            </div>
+            <div class="servico-item">
+                <img src="/logos/planejamento.jpg" alt="Planejamento Previdenciário">
+                <h3>Planejamento Previdenciário</h3>
+                <p>Aposentadoria Rural e Urbana (todos os tipos).</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="card">
+            <!-- Foto de perfil -->
+            <img src="/logos/self.JPG" alt="Foto de Perfil">
+    
+            <!-- Nome e descrição -->
+            <h2>Sérgio Ricardo Alves Faria</h2>
+            <p>
+                <strong>Analista Fiscal</strong> com conhecimento amplo e especializado em cálculo de tributos e declarações fiscais, incluindo DAPI, DACON, DIRF, DCTF, VAF/DAMEF, PIA EMPRESA/PRODUTO, GIA ICMS ST, SPED Fiscal e EFD Contribuições. Possuo uma abordagem pró-ativa e sou reconhecido por meu excelente relacionamento interpessoal, facilitando o trabalho em equipe de maneira eficaz e harmoniosa.
+                Sou dedicado e tenho uma grande facilidade de aprendizado, o que me permite adaptar rapidamente a novas situações e desafios. Além disso, tenho um conhecimento aprofundado das rotinas e cálculos do Departamento Pessoal de uma empresa, bem como das rotinas contábeis, garantindo a conformidade e a precisão nas operações financeiras.
+                 Minha experiência inclui a análise detalhada de dados fiscais e contábeis, a preparação e revisão de relatórios financeiros, e a implementação de estratégias para otimização de processos tributários. Estou sempre em busca de aprimorar minhas habilidades e contribuir de forma significativa para o sucesso da equipe e da empresa.
+            </p>
+    
+            <!-- Tags de interesses -->
+            <div class="tags">
+                <span class="tag">Criatividade</span>
+                <span class="tag">Viagens</span>
+                <span class="tag">Música</span>
+                <span class="tag">Tecnologia</span>
+                <span class="tag">Fotografia</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contato">
+        <div class="formulario-contato">
+            <h2>Solicite seu Orçamento</h2>
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+        <div class="descricao-contato">
+            <p>Na <strong>Alfa Consultoria</strong>, oferecemos um atendimento especializado e personalizado para atender às suas necessidades financeiras e patrimoniais. Se você precisa de apoio em aposentadoria, cálculo de imposto de renda, cálculo de DARF, regularização de imóveis ou planejamento previdenciário, estamos aqui para ajudar.
+                Nosso time de consultores possui vasta experiência e se dedica a encontrar as soluções mais vantajosas para você, considerando sempre a legislação atual e o melhor aproveitamento de seus recursos. Cada caso é tratado de forma única, garantindo que o planejamento financeiro e previdenciário seja alinhado aos seus objetivos de curto e longo prazo.
+                Para solicitar um orçamento ou tirar suas dúvidas, basta entrar em contato conosco. Estamos prontos para esclarecer qualquer questão e construir, junto com você, um caminho seguro para o seu futuro e de sua família.
+             </p>
+        </div>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>© 2024 Alfa Consultoria. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/s%C3%A9rgio-ricardo-alves-20328132/"><img src="/logos/linkedIn.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com"><img src="/logos/instagram.png" alt="Instagram"></a>
+            <a href="https://web.whatsapp.com/send?phone=5535999077629"><img src="/logos/whatsApp.png" alt="WhatsApp"></a>
+            <a href="mailto:email@provedor.com.br"><img src="/logos/mail.png" alt="Email"></a>
+            <a href="https://www.facebook.com"><img src="/logos/facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
