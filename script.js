@@ -1,3 +1,4 @@
+
 // Função para fechar o pop-up
 function closePopup() {
     document.getElementById("popupOverlay").style.display = "none";
@@ -8,5 +9,3 @@ function closePopup() {
 window.onload = function() {
     document.getElementById("popupOverlay").style.display = "flex";
 };
-
-
