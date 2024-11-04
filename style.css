@@ -194,7 +194,6 @@ body {
     flex-wrap: wrap;
     padding: 50px 20px;
     background: #f0f0f0;
-    text-align: center;
 }
 
 .formulario-contato {
@@ -206,6 +205,7 @@ body {
     font-size: 2em;
     color: #f97300;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .formulario-contato form {
@@ -237,10 +237,11 @@ body {
 
 .descricao-contato {
     flex: 1;
-    padding: 20px;
+    padding: 100px;
     font-size: 1.1em;
     color: #666;
 }
+
 
 /* Estilos básicos do card */
 .service-cards_1 {
