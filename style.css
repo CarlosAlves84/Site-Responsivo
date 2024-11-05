@@ -1,7 +1,6 @@
 
 /* Reset */
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -91,6 +90,7 @@ body {
     font-size: 2em;
     margin-bottom: 15px;
     color: #f97300;
+    text-align: center;
 }
 
 .sobre-texto p {
@@ -127,6 +127,7 @@ body {
     font-size: 2em;
     margin-bottom: 15px;
     color: #f97300;
+    text-align: center;
 }
 
 .mapa iframe {
@@ -138,15 +139,15 @@ body {
 
 /* Seção de Serviços */
 .servicos {
-    text-align: center;
-    padding: 50px 20px;
+    padding: 75px 20px;
     background: #ffffff;
 }
 
 .servicos h2 {
     font-size: 2.5em;
     color: #f97300;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .servicos-lista {
@@ -158,7 +159,7 @@ body {
 
 .servico-item {
     background: #f9f9f9;
-    padding: 20px;
+    padding: 1.25rem;
     border-radius: 10px;
     width: calc(50% - 10px);
     max-width: 350px;
@@ -238,11 +239,21 @@ body {
 
 .descricao-contato {
     flex: 1;
-    padding: 100px;
+    padding: 40px;
     font-size: 1.1em;
     color: #666;
 }
 
+.descricao-contato p {
+    display: grid;
+}
+
+.descricao-contato h2 {
+    display: grid;
+    margin-top: 10%;
+    text-align: center;
+    color: #ff8a00;
+}
 
 /* Estilos básicos do card */
 .service-cards_1 {
@@ -311,12 +322,12 @@ body {
 
 .card {
     background-color: #fff;
-    width: 90%;
+    width: 100%;
     border-radius: 15px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
-    padding: 80px;
+    padding: 68px;
 }
 
 /* Estilo da foto */
